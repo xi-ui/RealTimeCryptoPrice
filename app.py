@@ -39,7 +39,7 @@ def generate_random_data(crypto_code):
             }
         )
         yield f"data:{json_data}\n\n"
-        time.sleep(15)
+        time.sleep(2)
 
 
 @app.route("/chart-data/<crypto>")
